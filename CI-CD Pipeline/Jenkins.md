@@ -136,6 +136,13 @@ pipeline {
 - If we use `Poll SCM` trigger, It will waste a lot of resources, It is better for the use cases for data backup, etc.
 - So we can use `Webhook` trigger, This trigger is event-driven and activates the Jenkins job only when there is a change in the repository.
 
+### Jenkins Dynamic Agent
+
+- Edit the file at `/usr/lib/systemd/system/docker.service` and replace with the content provided in `docker.service` file
+- systemctl daemon-reload
+- systemctl restart docker
+- Install Docker Plugin In Jenkins
+- Setup docker cloud in jenkins
 
 ## GitHub Actions
 

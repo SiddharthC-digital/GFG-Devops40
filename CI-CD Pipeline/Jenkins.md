@@ -66,8 +66,8 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 - Launch an EC2 Instance with `t2.medium` Instance Type(We will configure it as our Jenkins Agent/Slave node)
 
 - Run the below Command to download java JDK
-    * `wget https://download.oracle.com/java/17/archive/jdk-17.0.10_linux-x64_bin.rpm`
-    * `yum install jdk-17.0.10_linux-x64_bin.rpm -y`
+    * `wget https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.rpm`
+    * `yum install jdk-21_linux-x64_bin.rpm -y`
 
 - Start the agent and join it to the Jenkins Master Node(You will get the below commands, from Jenkins master while adding this node, Don't use the below one, They are for my server)
     * `curl -sO http://54.146.158.246:8080/jnlpJars/agent.jar`

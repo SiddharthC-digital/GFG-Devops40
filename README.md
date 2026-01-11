@@ -7,3 +7,4 @@
 * Sample Python Flask App With CI-CD - https://github.com/sudhanshuvlog/SampleFlaskApp-Devops40/tree/master
 * Snake Game Repo - https://github.com/sudhanshuvlog/SnakeGame
 * Github Self Hosted Runner Doc - https://medium.com/@gauravkachariya/configuring-github-self-hosted-runner-on-ec2-a-step-by-step-guide-2449326c0f7b
+* K8s MERN App Development - https://github.com/sudhanshuvlog/K8s-MERN-App-Deployment/tree/main

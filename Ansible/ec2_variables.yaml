@@ -1,0 +1,8 @@
+region: ap-south-1
+security_group: default
+instance_type: t2.micro
+name: Ansible-ec2
+key_name: ansiblegfg40
+image_id: ami-0ff5003538b60d5ec
+vpc_subnet_id: subnet-04c1ed6ba9c55ffd7
+count: 1

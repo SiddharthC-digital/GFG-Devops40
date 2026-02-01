@@ -33,3 +33,9 @@ variable "instance_name" {
   default     = "terraform-instance-gfg"
   description = "Name tag for the EC2 instance"
 }
+
+variable "bucket_name" {
+  type        = string
+  default     = "my-gfg-bucket-31stjune2024"
+  description = "Name of the S3 bucket"
+}

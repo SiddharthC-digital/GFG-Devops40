@@ -3,5 +3,5 @@
 # }
 
 output "public_ip_first_instance"{
-    value = aws_instance.gfgos[1].public_ip
+    value = aws_instance.gfgos[0].public_ip
 }

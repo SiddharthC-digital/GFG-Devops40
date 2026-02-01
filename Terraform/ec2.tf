@@ -6,8 +6,8 @@ resource "aws_instance" "gfgos" {
     Name = var.instance_name
   }
   vpc_security_group_ids = [aws_security_group.gfg-sg.id]
-  subnet_id = var.subnet_id
-  count = 2
+  subnet_id = aws_subnet.public_subnet.id
+  count = 250
 }
 
 # resource "aws_instance" "gfgos2" {
@@ -30,6 +30,7 @@ resource "aws_key_pair" "gfg_keypair" {
 
 resource "aws_security_group" "gfg-sg" {
   name        = "mysg123"
+  vpc_id      = aws_vpc.gfg_vpc.id
   dynamic ingress {
     for_each = var.security_group_allowed_ports
     content {

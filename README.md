@@ -14,4 +14,6 @@
 * Devops Master Pipeline End to End - https://github.com/sudhanshuvlog/Devops-Master-Pipeline-End-To-End
 * Microservices App - https://github.com/sudhanshuvlog/MicroservicesApp
 * Sample Java App Repo CI-CD - https://github.com/Trainersudhanshu/sample-java-app/tree/main#
+* K8s Istio ServiceMesh - https://github.com/sudhanshuvlog/Istio-ServiceMesh-Proj
+* Nginx Ingress Controller - https://github.com/sudhanshuvlog/GFG-Devops40/tree/main/K8s/Ingress%20Controller
 * Devops 110 Interview Questions - https://docs.google.com/document/d/1ozERaBy6NHabVChsMG3ewtSnSZYWs8WDg4QL1IRW8Ts/edit?usp=sharing
